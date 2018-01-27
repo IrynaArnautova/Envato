@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,300,400,500,700,900&amp;subset=latin-ext" rel="stylesheet">
+  </head>
+  <body>
+  	<header class="my-class-menu">
+  		<nav class="navbar navbar-expand-xl navbar-light bg-light container">
+  			<a class="navbar-brand" href="#">
+    			<img src="../bootstrap4/image/logo.png" class="nav" alt="logo">
+  			</a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+	  			<ul class="nav nav-menu">
+	  				<li class="nav-item">
+						<a class="nav-link active" href="#">EVENT DETAILS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">SPEAKERS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">SPONSORS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">PAST EVENTS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">CONTACT</a>
+					</li>
+				 </ul>
+			</div>
+  		</nav>
+  		
+  	</header>
+    <section class="section-first container">
+    	<div id="clockdiv">
+      	<div>
+          <span class="days"></span>
+          <div class="colon">:</div>
+          <div class="smalltext">DAYS</div>
+        </div>
+        <div>
+          <span class="hours"></span>
+          <div class="colon">:</div>
+          <div class="smalltext">HOURS</div>
+        </div>
+        <div>
+          <span class="minutes"></span>
+          <div class="colon">:</div>
+          <div class="smalltext">MINUTES</div>
+        </div>
+        <div>
+          <span class="seconds"></span>
+          <div class="smalltext">SECONDS</div>
+        </div>
+  	  </div>
+    </section>
+    <section class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-6 col-sm-12 welcome-text">
+          <h4>Welcome!</h4>
+          <p class="welcome-text-paragraf">The biggest envato community meetup in Bangladesh is happening right now! And you can be a part of it too..</p>
+          <p class="welcome-text-paragraf">Get together with members of the Evanto community to talk shop, trade war stories, make new friends and see the faces behind the avatars. Whether you're an author on Envato Market, a client on Envato Studio, or a learner on Tuts+, you are invited!</p>
+          <p class="welcome-text-paragraf">It doesn't matter as long as you have the motivation and interest to work at the envato and bring cookies to our event. Just kidding, but we don't mind having more cookies!;) Head over and fill up the sign up form here so that we can keep track of our guests. Don't forget to register on our <strong>Envite</strong> page here too!</p>
+        </div>
+        <div class="col-md-5 col-sm-12">
+          <form class="sign-up-form">
+            <h3>Sign up for our event</h3>
+            <input type="text" class="form-control" placeholder="Name">
+            <input type="email" class="form-control"  placeholder="Enter email">
+            <input type="phone" class="form-control"  placeholder="Phone number">
+            <input type="text" class="form-control" placeholder="Envato Username">
+            <button type="button" class="btn">Let me in!</button>
+            <div class="sign-up-form-text">Hurry up, Limited seats available<br> *we will never spam your email</div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="container our-card">
+      <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src="image/smart-1.jpg" alt="image smart-1">
+          <div class="card-body">
+            <h5 class="card-title">Community</h5>
+            <p class="card-text">Meet the Community you've always talked with, in real life! This meetup will bw all about authors engaging each other with interesting coversation and topics. We will have loads of fun.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="image/smart-2.jpg" alt="image smart-2">
+          <div class="card-body">
+            <h5 class="card-title">Talk Shop</h5>
+            <p class="card-text">In this meetup you will get to know the marketplaces better, because that's why were all here for right? Learn a few tips and tricks from experienced authors from all over the country</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="image/smart-3.jpg" alt="image smart-3">
+          <div class="card-body">
+            <h5 class="card-title">War Stories</h5>
+            <p class="card-text">Gather round fellow authors! Hear the stories of success from your favorite authors andlearn how they we able to tackle their problems and become successful!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="shedule container">
+      <div id="accordion">
+        <div class="card first-line">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <div class="btn shedule-timing justify-content-between row">
+                <div class="timing-up col-md-2 col-sm-12 ">
+                  Time
+                </div>
+                <div class="col-md-1 col-sm-12"></div>
+                <div class="shedule-agenda timing-up col-md-8 col-sm-12">
+                  Stuff that will happen
+                </div>
+              </div>
+            </h5>
+          </div>
+        </div>
+        <div class="card second-fourth-line">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <div class="btn-link collapsed shedule-timing justify-content-between row">
+                <div class="timing shedule-text col-md-2 col-sm-12 ">
+                 10 am - 12 pm
+                </div>
+                <div class="shedule-agenda shedule-text col-md-8 col-sm-12">
+                  Introduction and presentation about Envato
+                </div>
+                <div class="col-md-1 col-sm-12 btn-icon">
+                  <button class="icon-plus" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"></button>
+                </div>
+              </div>
+            </h5>
+          </div>
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body shedule-text">
+              Over 9 million digital products created by a global community of designers, developers, photographers, illustrators and producers.
+            </div>
+          </div>
+        </div>
+        <div class="card third-fifth-line">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <div class="btn-link collapsed shedule-timing justify-content-between row">
+                <div class="timing shedule-text col-md-2 col-sm-12 ">
+                 12 pm - 02 pm
+                </div>
+                <div class="shedule-agenda shedule-text col-md-8 col-sm-12">
+                  Sessions by honorable guests and Speakers
+                </div>
+                <div class="col-md-1 col-sm-12 btn-icon">
+                  <button class="icon-plus" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"></button>
+                </div>
+              </div>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body shedule-text">
+              We believe good ideas deserve a chance to grow. We believe people deserve to earn a living doing what they love. We believe in making it easy to get things done. 
+            </div>
+          </div>
+        </div>
+        <div class="card second-fourth-line">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <div class="btn-link collapsed shedule-timing justify-content-between row">
+                <div class="timing shedule-text col-md-2 col-sm-12 ">
+                 02 pm - 03 pm
+                </div>
+                <div class="shedule-agenda shedule-text col-md-8 col-sm-12">
+                  Break and Mingle time with the authors 
+                </div>
+                <div class="col-md-1 col-sm-12 btn-icon">
+                  <button class="icon-plus" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"></button>
+                </div>
+              </div>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body shedule-text">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
+            </div>
+          </div>
+          <div class="card third-fifth-line fifth-line">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <div class="btn-link collapsed shedule-timing justify-content-between row">
+                <div class="timing shedule-text col-md-2 col-sm-12 last-item">
+                  03 pm - 05 pm
+                </div>
+                <div class="shedule-agenda shedule-text col-md-8 col-sm-12">
+                  Portfolio Review, Rewards and Ending Presentation 
+                </div>
+                <div class="col-md-1 col-sm-12 btn-icon">
+                  <button class="icon-plus" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"></button>
+                </div>
+              </div>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body shedule-text">
+              Stories, inspiration and insights to inspire creative ideas.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sign-up-shedule">Please keep in mind that the timings may differ according to the flow of the event. The even is actually day long and we do plan to finish<br> it within our set time but it doesn't have to be, if we all agree to hangour for some time more, what harm could it do? :)
+      </div>
+    </section>
+    <section class="envato-elite">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-5 col-sm-12">
+            <img src="image/elite-badge.png" class="elite-badge" alt="envato-elite">
+          </div>
+          <div class="elite-text-up col-md-7 col-sm-12">
+              <h3>We reward the Elites!</h3>
+              <p class="elite-text">Are you an Elite author in the Envato Marketplaces? If so we are proud of you! We want to give our thanks in achieving great success in the marketplace and we want to make known to the people of our country that you are amazing! Our Elite gifting program includes giving you special merchandize from our community and also promote your works in our community.</p>
+              <p class="elite-text">All you have to do  is contact us by clicking the button here and then its just going to the event, saying something motivational and taking that swag while looking amazing infront of thousands of other community members.</p>
+              <p class="elite-text">*Be advised, we will only give you Elite thank you swag for each level of elite you cross. That means if you do not cross to the next elite level before the next event, you cannot claim your prizes.</p>
+              <button type="button" class="btn">Bring on the swag!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="speakers">
+      <div class="container speakers-select">
+        <h3>Speakers</h3>
+        <p class="speakers-select-text">Meet our Valuable speakers who will be each giving 10 minutes sessions on different subjects regarding being a digital product author, working at envato and marketing your business. Hope you will have a great time listening to our presentation!</p>
+        <div class="row">
+          <div class="col-sm-12 col-md-4 speakers-column">
+            <div class="speakers-select-text-colomn">
+              <h3>Jenni McKinnon</h3><hr>
+              <p>How to Craft an Irresistible “About” Page</p>
+              <div>
+                <a href="https://www.facebook.com/" class="facebook" target="_blank"></a>
+                <a href="https://twitter.com/" class="twitter" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 speakers-column">
+            <div class="speakers-select-text-colomn">
+              <h3>Shahriyer Shuvo</h3><hr>
+              <p>More about selling in the Envato Marketplaces</p>
+              <div>
+                <a href="https://www.facebook.com/" class="facebook" target="_blank"></a>
+                <a href="https://twitter.com/" class="twitter" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 speakers-column">
+            <div class="speakers-select-text-colomn">
+              <h3>Eric Karkovack</h3><hr>
+              <p>All About Website Builders: A Beginner Guide</p>
+              <div>
+                <a href="https://www.facebook.com/" class="facebook" target="_blank"></a>
+                <a href="https://twitter.com/" class="twitter" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="speakers-select-text-colomn speakers-second-row">
+              <h3>Katie<br>Perry</h3><hr>
+              <p>The New American Dream Includes the Ability to Travel</p>
+              <div>
+                <a href="https://www.facebook.com/" class="facebook" target="_blank"></a>
+                <a href="https://twitter.com/" class="twitter" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 speakers-second-row speakers-picture">
+            <div class="speakers-select-picture-colomn">
+              <img src="../bootstrap4/image/speakers-select.png" alt="speakers-select">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 speakers-second-row speakers-column">
+            <div class="speakers-select-text-colomn">
+              <h3>Eric Karkovack</h3><hr>
+              <p>Ways to Launch Your Website Quickly, Without Sacrificing Quality</p>
+              <div>
+                <a href="https://www.facebook.com/" class="facebook" target="_blank"></a>
+                <a href="https://twitter.com/" class="twitter" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 speakers-column">
+            <div class="speakers-select-text-colomn">
+              <h3>Jamie Frankenberg</h3><hr>
+              <p>Pinterest Marketing Tips: How It Works, and What to Post</p>
+              <div>
+                <a href="https://www.facebook.com/" class="facebook" target="_blank"></a>
+                <a href="https://twitter.com/" class="twitter" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 speakers-column">
+            <div class="speakers-select-text-colomn">
+              <h3>Sarah<br>Brown</h3><hr>
+              <p>Need to Find a Creative Dream Team? Here’s How</p>
+              <div>
+                <a href="https://www.facebook.com/" class="facebook" target="_blank"></a>
+                <a href="https://twitter.com/" class="twitter" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 speakers-column">
+            <div class="speakers-select-text-colomn">
+              <h3>Mariel Tavakoli</h3><hr>
+              <p>The Basics of Newsletter Sign-Up Forms (And Why You Need One)</p>
+              <div>
+                <a href="https://www.facebook.com/" class="facebook" target="_blank"></a>
+                <a href="https://twitter.com/" class="twitter" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sponsors">
+      <div class="container sponsor-text">
+        <h3>Sponsor Our Event!</h3>
+        <p>If you want to help us making event lively and successful, help us by sponsoring our event! This will help us bring in more people, have better livestreaming, maybe even our own chefQ Yo can also sponsor us by giving free swag at the event!</p>
+        <p>Here's who have sponsored us already</p>
+        <div class="sponsor-icon">
+          <a href="#" class="mountain-sponsor" target="_blank"></a>
+          <a href="#" class="something-sponsor" target="_blank"></a>
+          <a href="#" class="envato-sponsor" target="_blank"></a>
+        </div>
+        <div class="sponsor-us">
+          <a href="#" class="btn">Sponsor Us</a>
+        </div>
+      </div>
+    </section>
+    <section class="contact-us">
+      <div class="contact-us-content-border">
+        <div class="row justify-content-between container contact-us-content">
+          <div class="col-md-6 col-sm-12 address">
+            <img src="../bootstrap4/image/address-icon.png" class="address-picture">
+            <p class="address-text">Lorem Ipsum Avenue, 402/2 elm<br>street, Melbourne, Sydney - 2122,<br>Kingdom of Australia</p>
+            <div class="view-map">
+              <a href="#" class="btn">View Map</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <form class="contact-us-form">
+              <input type="email" class="form-control user-email" placeholder="Enter email">
+              <textarea class="form-control contact-us-form-text">Type your message</textarea>
+              <input class="btn btn-primary send-message" type="submit" value="Send Message">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer >
+      <div class="container">
+        <div class="social-network-footer">
+          <a href="https://www.facebook.com/" class="facebook icon-footer" target="_blank"></a>
+          <a href="https://twitter.com/" class="twitter icon-footer" target="_blank"></a>
+          <a href="https://www.linkedin.com/" class="linkedin icon-footer" target="_blank"></a>
+          <a href="https://www.google.com.ua/" class="google icon-footer" target="_blank"></a>
+          <a href="https://www.tumblr.com/" class="tumblr icon-footer" target="_blank"></a>
+        </div>
+        <p>Hope we see you at the event!<br>All Rights Reserved. Envato Bangladesh © 2015</p>
+      <div>
+    </footer>
+    <script type="text/javascript" src="js/script.js"></script>
+  	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+   	<script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
